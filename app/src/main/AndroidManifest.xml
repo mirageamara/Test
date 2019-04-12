@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.test">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Second" />
+        <activity android:name=".formulaireclient" />
+        <activity android:name=".accueil">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".EspaceEmploye" />
+        <activity android:name=".loginemployee" />
+        <activity android:name=".ajouteremployee" />
+        <activity android:name=".supprimeremployee" />
+        <activity android:name=".administrateur" />
+        <activity android:name=".loginadmin" />
+        <activity android:name=".listeclient" />
+        <activity android:name=".seconnecteremployee" />
+        <activity android:name=".gererclient" />
+        <activity android:name=".gerervoiture" />
+        <activity android:name=".mirage" />
+        <activity android:name=".modelevoiture" />
+        <activity android:name=".second1" />
+        <activity android:name=".voituresclient" />
+        <activity android:name=".DetailClient" />
+        <activity android:name=".contact"></activity>
+    </application>
+
+</manifest>

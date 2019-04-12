@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Location</string>
+
+    <string-array name="voiture">
+        <item>Fiat</item>
+        <item>Clio</item>
+        <item>Audi</item>
+        <item>Hyundai</item>
+        <item>Mercedes</item>
+        <item>Volkswagen</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_accueil">AccueilActivity</string>
+
+</resources>
